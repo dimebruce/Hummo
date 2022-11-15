@@ -34,7 +34,7 @@ function App() {
             <div className="mb-3">
               <label className="form-label text-white">Total de la cuenta</label>
               <input
-                type="number"
+                type="tel"
                 value={count ? count : ""}
                 className="form-control fs-3 fw-bold"
                 onChange={(e) => setCount(Number(e.target.value))}
