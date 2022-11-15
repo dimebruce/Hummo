@@ -14,7 +14,10 @@ function App() {
     const porcentaje = Number(0.0406);
     const temp = count * porcentaje;
     setCalculo(Number(count + temp));
+
+    setCount(0)
   };
+  
 
   return (
     <>
@@ -32,6 +35,7 @@ function App() {
               <label className="form-label text-white">Total de la cuenta</label>
               <input
                 type="number"
+                value={count ? count : ""}
                 className="form-control fs-3 fw-bold"
                 onChange={(e) => setCount(Number(e.target.value))}
               />
