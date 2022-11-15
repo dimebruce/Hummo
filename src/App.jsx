@@ -1,5 +1,4 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
 import hummo from "../public/flame.svg";
 import { formatoMoneda } from "./helpers";
 import Footer from "./components/Footer";
@@ -36,7 +35,8 @@ function App() {
               <input
                 type="tel"
                 value={count ? count : ""}
-                className="form-control fs-3 fw-bold"
+                className="form-control fs-3 fw-bold text-center"
+                placeholder="0.00"
                 onChange={(e) => setCount(Number(e.target.value))}
               />
               <div className="form-text">
@@ -45,7 +45,7 @@ function App() {
             </div>
             <button
               type="submit"
-              className="btn w-100 text-white fw-bold"
+              className="btn w-100 text-black fw-bold"
               style={{ background: " #FF6600" }}
             >
               Calcular

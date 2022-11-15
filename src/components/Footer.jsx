@@ -20,13 +20,13 @@ const Footer = () => {
     
             <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
               <li className="ms-3">
-                <a className="text-muted" target="_blank" href="https://www.instagram.com/hummo_mx_">
+                <a className="text-muted" target="_blank" alt="Logo de Instagram" href="https://www.instagram.com/hummo_mx_">
                 <i className="bi bi-instagram"></i>
                 </a>
               </li>
               <li className="ms-3">
                 <a className="text-muted" target="_blank" href="https://www.tiktok.com/hummo_mx">
-                <i className="bi bi-tiktok"></i>
+                <i className="bi bi-tiktok" alt="Logo de Tiktok"></i>
                 </a>
               </li>
             </ul>
